@@ -1,24 +1,43 @@
-# Compiled class file
-*.class
+JavaBasic/.gradle
+JavaBasic/build/
+!JavaBasic/gradle/wrapper/gradle-wrapper.jar
+!JavaBasic/**/src/main/**/build/
+!JavaBasic/**/src/test/**/build/
 
-# Log file
-*.log
+### IntelliJ IDEA ###
+JavaBasic/.idea/
+JavaBasic/.idea/modules.xml
+JavaBasic/.idea/jarRepositories.xml
+JavaBasic/.idea/compiler.xml
+JavaBasic/.idea/libraries/
+JavaBasic/*.iws
+JavaBasic/*.iml
+JavaBasic/*.ipr
+JavaBasic/out/
+!JavaBasic/**/src/main/**/out/
+!JavaBasic/**/src/test/**/out/
 
-# BlueJ files
-*.ctxt
+### Eclipse ###
+JavaBasic/.apt_generated
+JavaBasic/.classpath
+JavaBasic/.factorypath
+JavaBasic/.project
+JavaBasic/.settings
+JavaBasic/.springBeans
+JavaBasic/.sts4-cache
+JavaBasic/bin/
+!JavaBasic/**/src/main/**/bin/
+!JavaBasic/**/src/test/**/bin/
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+### NetBeans ###
+JavaBasic/nbproject/private/
+JavaBasic/nbbuild/
+JavaBasic/dist/
+JavaBasic/nbdist/
+JavaBasic/.nb-gradle/
 
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
+### VS Code ###
+JavaBasic/.vscode/
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+### Mac OS ###
+JavaBasic/.DS_Store
